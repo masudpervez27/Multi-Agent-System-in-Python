@@ -1,0 +1,79 @@
+/* .stApp > header {
+    background-color: transparent;
+}
+
+/* App background with animated gradient */
+.stApp {
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, #4f2991 3%, #7dc4ff 38%, #36cfcc 68%, #a92ed3 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    /* color: white */
+}
+
+/* Title styling */
+.main-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.stTitle title {
+    color: white;
+}
+
+/* Sidebar styling */
+.stSidebar .sidebar-content {
+    padding: 20px;
+}
+
+.stSidebar .css-e1nzilvr5, /* Adjusts sidebar header */
+.stSidebar .css-1n543e5 { /* Adjusts sidebar widget labels */
+    color: white !important;
+}
+
+/* Button styling */
+.stButton button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px; /* Rounded corners */
+    transition: all 0.3s ease-in-out;
+}
+
+.stButton button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Text input styling */
+.stTextArea, .stTextInput {
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 10px;
+}
+
+.stTextArea textarea, .stTextInput input {
+    color: white !important;
+}
+
+.stTextArea textarea::placeholder, .stTextInput input::placeholder {
+    color: #d3d3d3;
+}
+
+/* Gradient Animation */
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
